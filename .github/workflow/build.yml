@@ -1,0 +1,9 @@
+
+
+on: push
+jobs: 
+     firstjob:
+        runs-on : window-latest
+        step:
+         -run : node-v
+         -run : npm-v
