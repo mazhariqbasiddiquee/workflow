@@ -8,7 +8,7 @@ jobs :
              with:
                  node-version: '14'
            - name: Print Node.js
-             run : node-v
+             run : node -v
 
 
 
